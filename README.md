@@ -4,9 +4,12 @@ This python script with the help of `pypandoc` and `pytidylib` python libraries,
 
 ## Pre-requisites
 
-* Linux 16.10 and above
 * [pandoc 1.17.0.3](http://pandoc.org/installing.html)
-* [pytidylib](https://pypi.python.org/pypi/pytidylib/)
+* pypandoc
+* libtidy-dev
+* [Python tidylib package ](https://pypi.python.org/pypi/pytidylib/)
+* tidylib-dev
+* Python 2
 
 ## Compiling
 
