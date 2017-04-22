@@ -8,7 +8,6 @@ This python script with the help of `pypandoc` and `pytidylib` python libraries,
 * pypandoc
 * libtidy-dev
 * [Python tidylib package ](https://pypi.python.org/pypi/pytidylib/)
-* tidylib-dev
 * Python 2
 
 ## Compiling
