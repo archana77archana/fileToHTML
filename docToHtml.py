@@ -2,9 +2,11 @@ import pypandoc
 import sys
 from tidylib import tidy_document
 
+# first argument will be the input
+# stores the media files into media folder
 output = pypandoc.convert(sys.argv[1], 'html', extra_args=['--extract-media=./'])
 
-# tidy_document returns both output and errors and we just errors to the terminal
+# tidy_document returns both output and errors and we just print errors to the terminal
 output, errors = tidy_document(output, options={
         'numeric-entities': 1,
         'wrap': 80,
