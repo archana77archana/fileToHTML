@@ -5,9 +5,9 @@ This python script with the help of `pypandoc` and `pytidylib` python libraries,
 ## Pre-requisites
 
 * [pandoc 1.17.0.3](http://pandoc.org/installing.html)
-* pypandoc
+* [pypandoc](https://pypi.python.org/pypi/pypandoc)
 * libtidy-dev
-* [Python tidylib package ](https://pypi.python.org/pypi/pytidylib/)
+* [pytidylib](https://pypi.python.org/pypi/pytidylib/)
 * Python 2
 
 ## Compiling
