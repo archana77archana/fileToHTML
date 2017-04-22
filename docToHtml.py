@@ -17,5 +17,5 @@ output = output.replace(u"\u2018", '&lsquo;').replace(u"\u2019", '&rsquo;')
 output = output.replace(u"\u201c", "&ldquo;").replace(u"\u201d", "&rdquo;")
 
 with open(sys.argv[2], 'w') as f:
-	f.write(output)
+	 f.write(output.encode("UTF-8"))
 print('done')
